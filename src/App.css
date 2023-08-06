@@ -1,0 +1,64 @@
+body {
+  background-image: url(./images/background-img.jpg);
+}
+
+.login_page {
+  background-color: aliceblue;
+  width: 25%;
+  margin: auto;
+  padding: 40px 20px;
+  margin-top: 200px;
+  border-radius: 15px;
+}
+.sign_up {
+  background-color: aliceblue;
+  width: 50%;
+  margin: auto;
+  padding: 20px 20px;
+  margin-top: 20px;
+  border-radius: 10 px;
+}
+.header-div {
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.image {
+  height: 90vh;
+}
+.posters {
+  height: 70vh;
+}
+
+.search_bar {
+  /* margin-top: 50px; */
+  margin: auto;
+  /* position: absolute; */
+  width: 50%;
+}
+.movie_page {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+}
+.buttons {
+  height: 10vh;
+  width: 100vw;
+  display: block;
+  background-color: aliceblue;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.movie-tag:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px aliceblue;
+}
+
+.result {
+  text-align: center;
+  font-size: 25px;
+  padding: 40px 50px;
+  margin: auto;
+}
